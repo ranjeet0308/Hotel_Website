@@ -1,0 +1,31 @@
+# Aurora Grand Hotel Website 🏨
+
+A modern, responsive hotel website showcasing rooms, customer testimonials, and interactive features.  
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-username.github.io/aurora-grand-hotel/)
+
+---
+
+## Features ✨
+- Responsive sidebar navigation with social media links  
+- Banner with call-to-action  
+- About Us and Rooms sections with image cards  
+- Customer testimonials  
+- Footer with contact info, gallery, and newsletter signup  
+- Hover effects and lightbox image zoom  
+
+---
+
+## Project Structure 📂
+
+aurora-grand-hotel/
+├── index.html
+├── css/style.css
+├── images/
+├── js/ (optional)
+└── README.md
+
+## Usage 💻
+1. Clone the repo:  
+git clone https://github.com/your-username/aurora-grand-hotel.git
+2. Open index.html in your browser
