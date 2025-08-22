@@ -28,4 +28,5 @@ aurora-grand-hotel/
 ## Usage 💻
 1. Clone the repo:  
 git clone https://github.com/your-username/aurora-grand-hotel.git
-2. Open index.html in your browser
+2. Open index.html in your browser.
+3. Live Demo : https://ranjeet0308.github.io/Hotel_Website/
