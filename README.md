@@ -2,7 +2,7 @@
 
 A modern, responsive hotel website showcasing rooms, customer testimonials, and interactive features.  
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-username.github.io/aurora-grand-hotel/)
+[![Live Demo](https://ranjeet0308.github.io/Hotel_Website/)
 
 ---
 
@@ -29,4 +29,4 @@ aurora-grand-hotel/
 1. Clone the repo:  
 git clone https://github.com/your-username/aurora-grand-hotel.git
 2. Open index.html in your browser.
-3. Live Demo : https://ranjeet0308.github.io/Hotel_Website/
+3. Live Demo is provided at the top.
