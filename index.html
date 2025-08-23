@@ -66,13 +66,14 @@
             </div>
         </div>
         <!-- side bar end -->
+
          <!-- navigation part -->
 
          <nav class="navigation">
             <div class="navigation-header">
                 <h1 class="navigation-heading">Aurora Grand</h1>
                 <form class="navigation-search">
-                    <input type="text" class="navigation-search-input" placeholder="Search...">
+                    <input type="text" class="navigation-search-input" placeholder="Don't Search here  T_T"> 
                     <button class="navigation-search-button">
                     <i class="bi bi-search"></i>   
                     </button>
@@ -80,27 +81,27 @@
             </div>
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <a href="#" class="navigation-link">Home</a>
+                    <a href="#home" class="navigation-link">Home</a>
                 </li>
 
                 <li class="navigation-item">
-                    <a href="#" class="navigation-link">About us</a>
+                    <a href="#about" class="navigation-link">About us</a>
                 </li>
 
                 <li class="navigation-item">
-                    <a href="#" class="navigation-link">Rooms</a>
+                    <a href="#rooms" class="navigation-link">Rooms</a>
                 </li>
 
                 <li class="navigation-item">
-                    <a href="#" class="navigation-link">Events</a>
+                    <a href="#" class="navigation-link" onclick="showEventMessage()">Events</a>
                 </li>
 
                 <li class="navigation-item">
-                    <a href="#" class="navigation-link">Customers</a>
+                    <a href="#customers" class="navigation-link">Customers</a>
                 </li>
 
                 <li class="navigation-item">
-                    <a href="#" class="navigation-link">Contact us</a>
+                    <a href="#contact" class="navigation-link">Contact us</a>
                 </li>
             </ul>
             <div class="copyright">
@@ -112,7 +113,7 @@
     <!--nav bar ends here-->
 
     <!--Header-->
-    <header class="header">
+    <header class="header" id="home">
         <div class="brand">
             <div>
                 <img src="images/icon-2.png" width="80">
@@ -122,7 +123,8 @@
         <div class="banner">
             <h1 class="banner-heading">Welcome to Aurora Grand</h1>
             <p class="banner-paragraph">A World of Luxury </p>
-            <button class="banner-button">Checkout</button>
+            <a href="#rooms" class="banner-button">Checkout</a>
+
         </div>
 
     </header>
@@ -130,17 +132,13 @@
     <!--End of Header-->
     
     <!--About us-->
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="about-us-content">
            <h1 class="about-us-heading">About Us</h1> 
            <div class="small-underline"></div>
            <div class="big-underline"></div>
         <h3 class="sub-heading">Aurora Grand</h3>
-        <p class="about-us-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quidem repellendus et dolore!</p>
-
-        <button class="about-us-button"> Read More
-           <i class="bi bi-arrow-right-short btn-arrow"></i>
-        </button>
+        <p class="about-us-paragraph">Welcome to Aurora Grand, where luxury meets a touch of feline finesse. Here, our distinguished royal guests have given their paws-up, approving every cozy corner and plush cushion. From sun-drenched windowsills to soft, inviting beds, every space is designed to delight our visitors. Our dedicated staff ensures that every meow is heard, every purr is cherished, and every guest feels like royalty. Step into Aurora Grand and experience a stay where comfort, elegance, and a hint of cat-titude come together to create unforgettable memories.</p>
          </div>
 
          <div class="about-us-images">
@@ -155,7 +153,7 @@
 
     <!--Rooms-->
 
-    <section class="rooms">
+    <section class="rooms" id="rooms">
         <div class="common-header">
             <h1 class="common-heading">Tailored Spaces, Memorable Stays</h1>
             <div class="small-underline"></div>
@@ -226,7 +224,7 @@
 
     <!--Customer section-->
 
-    <section class="customers">
+    <section class="customers" id="customers">
   <div class="common-header">
     <h1 class="common-heading">Traveler Tales</h1>
     <div class="underline">
@@ -236,7 +234,7 @@
   </div>
 
   <p class="customer-paragraph">
-    " Our customers are nothing short of majestic. Each line is a throne-worthy testimony of class, charm, and a little bit of cattitude. They don’t just approve of us… they <u><b>purr-sonally</b></u> endorse us. After all, if it’s fit for a king or queen, it’s fit for you."
+    " Our customers are nothing short of majestic. Each line is a throne-worthy testimony of class, charm, and a little bit of cattitude. They don’t just approve of us… they <u><b>purr-sonally</b></u> endorse us. After all, if it’s fit for a king or queen, it’s fit for you. So book your experience and tell your Meowtastic tale of comfort, elegance, and unforgettable purr-fection. # Long live luxury. Long live naps. Long live the purr.
   </p>
 
   <div class="customer-card-wrapper">
@@ -330,7 +328,6 @@
 </section>
 
 
-
     <!--Customer section ends-->
 
 <!--Form-->
@@ -397,16 +394,17 @@
     <div class="footer-list-wrapper">
       <h3 class="footer-heading">Explore</h3>
       <ul class="footer-list">
-        <li class="footer-list-item"><a href="#" class="footer-list-link">Home</a></li>
-        <li class="footer-list-item"><a href="#" class="footer-list-link">About Us</a></li>
-        <li class="footer-list-item"><a href="#" class="footer-list-link">Rooms</a></li>
-        <li class="footer-list-item"><a href="#" class="footer-list-link">Events</a></li>
-        <li class="footer-list-item"><a href="#" class="footer-list-link">Customer</a></li>
-        <li class="footer-list-item"><a href="#" class="footer-list-link">Contact</a></li>
+        <li class="footer-list-item"><a href="#home" class="footer-list-link" id="home">Home</a></li>
+        <li class="footer-list-item"><a href="#about" class="footer-list-link" id="about">About Us</a></li>
+        <li class="footer-list-item"><a href="#rooms" class="footer-list-link" id="rooms">Rooms</a></li>
+        <li class="footer-list-item"><a href="#" class="footer-list-link" onclick="showEventMessage()">Events</a></li>
+        <li class="footer-list-item"><a href="#customers" class="footer-list-link" id="customer">Customer</a></li>
+        <li class="footer-list-item"><a href="#contact" class="footer-list-link" id="contact">Contact</a></li>
       </ul>
     </div>
 
     <!-- 3) Contact -->
+    <section id="contact"></section>
     <div class="contact">
       <h3 class="footer-heading">Contact</h3>
       <p>Sign Up For Latest Events.</p>
@@ -446,25 +444,34 @@
 <!--script for forms-->
 
 <script>
-  // Modal
+  
   const modal = document.getElementById("bookingModal");
   const closeBtn = document.querySelector(".close-btn");
 
-  // Open modal on any Book Now button click
+  
   document.querySelectorAll(".room-card-button").forEach(btn => {
     btn.addEventListener("click", () => {
       modal.style.display = "block";
     });
   });
 
-  // Close modal
+  
   closeBtn.addEventListener("click", () => modal.style.display = "none");
 
-  // Close if user clicks outside modal
+
   window.addEventListener("click", e => {
     if (e.target === modal) modal.style.display = "none";
   });
 </script>
+
+<!--Event popups-->
+
+<script>
+  function showEventMessage() {
+    alert("Purrrr ! No Events Yet. Stay tunned !!! 🌟");
+  }
+</script>
+
 
 
 </body>
