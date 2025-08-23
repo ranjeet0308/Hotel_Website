@@ -16,7 +16,7 @@ body{
 
 .sidebar {
     width: 8rem;
-    height: 100vh;
+    height: 100%;
     background-color: #eee;
     position: fixed;
     display: flex;
@@ -119,7 +119,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    transition:left 0.7s cubic-bezier(1, 0, 0, 1);    
+    transition:left 0.7s cubic-bezier(1, 0, 0, 1);  
+    z-index: 5;  
 }
 
 .navigation-heading{
@@ -865,4 +866,189 @@ body{
   cursor: pointer;
 }
 
+@media(max-width: 1400px){
+    .customer-card-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer-card:first-child{
+        margin-bottom:3rem ;
+    }
+
+    .main-part{
+        flex-direction: column;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-list-item{
+        margin-right:3rem;
+    }
+}
+
+@media(max-width:1200px){
+    .about-us{
+        flex-direction: column;
+    }
+
+    .about-us-content{
+        margin-bottom: 13rem;
+    }
+
+    .image{
+        width: 25rem;
+    }
+
+    .rooms-cards-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:900px){
+    .banner{
+        text-align: center;
+    }
+
+    .banner-heading{
+        font-size: 4.7rem;
+    }
+
+    .banner-paragraph{
+        font-size: 2.5rem;
+    }
+
+    .banner-button{
+        width: 16rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width: 750px){
+    .customer-card{
+        flex-direction: column;
+        width: 25rem;
+        display: block;
+    }
+
+    .customer-image{
+        margin: 0;
+    }
+
+    .footer-list{
+        display: block;
+    }
+
+    .creator-part{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright-text{
+        order: 1;
+    }
+}
+
+@media(max-width:500px){
+    .navigation{
+        width: 30rem;
+    }
+
+    .navigation-search-input{
+        width: 20rem;
+    }
+
+    .hotel-heading{
+        font-size: 2rem;
+        margin: auto 0;
+    }
+
+    .banner{
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .banner-heading{
+        font-size: 3rem;
+    }
+
+    .banner-paragraph{
+        font-size:2rem;
+    }
+
+    .about-us{
+        padding-bottom: 15rem;
+    }
+
+    .about-us-heading{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sub-heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-us-content{
+        padding: 5rem;
+    }
+
+    .image{
+        width: 13rem;
+    }
+
+
+    .common-heading{
+        font-size: 2rem;
+    }
+
+    .small-underline{
+        width: 5rem;
+    }
+
+    .big-underline{
+        width: 12rem;
+    }
+
+    .room-card-heading{
+        font-size: 1.5rem;
+    }
+
+    .room-price{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+
+    .room-card-button{
+        width: 12rem;
+        padding: 1rem .5rem;
+        font-size: 1rem;
+    }
+
+    .customer-paragraph{
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    
+
+    .main-part{
+        padding: 2rem;
+
+    }
+
+    .footer-input{
+        width: 12rem;
+    }
+
+    .image-wrapper{
+        width: 9rem;
+    }
+}
 
