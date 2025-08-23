@@ -5,7 +5,7 @@ A modern, responsive hotel website showcasing rooms, customer testimonials, and 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://ranjeet0308.github.io/Hotel_Website/)
 
 ## Features ✨
-- Responsive sidebar navigation with social media links  
+- Responsive sidebar navigation and send the email of booking confirmation done by the user in real time
 - Banner with call-to-action  
 - About Us and Rooms sections with image cards  
 - Customer testimonials  
